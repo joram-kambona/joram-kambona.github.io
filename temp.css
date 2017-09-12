@@ -9,9 +9,29 @@
 }
 
 .main {
-	width: 60%;
-	height: 1000px;
+	width: 90%;
 	margin: 0 auto;
+	background-color: rgba(120,50,120,0.2);
+}
+
+.header h1 {
 	text-align: center;
-	background-color: rgba(50,50,50,.5);
+	font-size: 3em;
+	border-bottom: 2px solid rgba(30,50,70,0.5);
+	padding: 5px 0;
+}
+
+.auto {
+	color: red;
+	padding: 10px 0;
+	background-color: lime;
+}
+
+.body {
+	height: 500px;
+}
+
+.footer {
+	text-align: center;
+	border-top: 2px solid rgba(30,50,70,0.5);
 }
