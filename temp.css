@@ -1,24 +1,21 @@
 * {
 	padding: 0;
 	margin: 0;
-	list-style: none;
-	text-decoration: none;
-	text-decoration: none;
 	box-sizing: border-box;
-	font-family: cursive;
 }
 
 .main {
 	width: 90%;
 	margin: 0 auto;
-	background-color: rgba(120,50,120,0.2);
+	background-color: rgba(120,50,120,0.1);
 }
 
 .header h1 {
 	text-align: center;
 	font-size: 3em;
-	border-bottom: 2px solid rgba(30,50,70,0.5);
+	border-bottom: 2px solid rgba(30,50,70,0.9);
 	padding: 5px 0;
+	font-family: serif;
 }
 
 .auto {
@@ -28,10 +25,20 @@
 }
 
 .body {
-	height: 500px;
+	height: 700px;
 }
 
 .footer {
 	text-align: center;
-	border-top: 2px solid rgba(30,50,70,0.5);
+	border-top: 2px solid rgba(30,50,70,0.9);
+	padding: 10px 5px 20px 5px;
+	font-family: cursive;
+}
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width: 480px){
+   .header h1 {
+   	font-size: 1em;
+   }
 }
